@@ -1,0 +1,153 @@
+#Video {
+    position: relative;
+}
+
+#Video video {
+    width: 100%;
+}
+
+#Video div {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 5rem;
+}
+
+#Video div h1 {
+    font-size: 1.4rem;
+}
+
+#Video div button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 0.2rem 2rem;
+    margin-top: 1rem;
+    font-size: 0.7rem;
+}
+
+#Cards {
+    background-color: black;
+    color: white;
+}
+
+#Cards h1 {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 0.5rem 0rem;
+}
+
+#Bikes {
+    display: flex;
+
+}
+
+#Bikes div {
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+}
+
+#Bikes div img {
+    width: 100%;
+}
+
+#Bikes div p {
+    position: absolute;
+    bottom: 0%;
+    padding: 0rem 1rem;
+    font-weight: 600;
+}
+
+#Bikes div img:hover {
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.Header {
+    background-color: black;
+    color: white;
+    padding: 1rem 0rem;
+}
+
+.Header ul {
+    margin: 0px;
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+    list-style-type: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.Header ul h5 {
+    font-weight: 700;
+    padding-right: 1rem;
+}
+
+.Lal:hover {
+    color: red;
+}
+
+.Image img {
+    width: 100%;
+}
+
+#SmallFooter {
+    display: flex;
+    background-color: black;
+    color: grey;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-bottom: 1.5rem;
+}
+
+#SmallFooter div i {
+    padding: 1.5rem 0rem;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 5%;
+}
+#SmallFooter div a{
+    text-decoration: none;
+    color: gray;
+}
+#SmallFooter div:hover a{
+    color: red;
+}
+
+#Social{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+#SocialCont i{
+    font-size: 1.5rem;
+    padding: 0rem 0.5rem;
+}
+
+#Footer div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#Footer div div{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+#Footer h1{
+    font-size: 1rem;
+    font-weight: 900;
+}
+#Footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+  
+}
+#Footer a:hover{
+    color: red;
+}
